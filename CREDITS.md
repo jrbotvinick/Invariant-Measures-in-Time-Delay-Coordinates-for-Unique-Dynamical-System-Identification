@@ -1,4 +1,4 @@
-This project includes code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by [Felix Köhler] under the following MIT license: 
+This project includes code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by Felix Köhler under the following MIT license: 
 
 MIT License
 
