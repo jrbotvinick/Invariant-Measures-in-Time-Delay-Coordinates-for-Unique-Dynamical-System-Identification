@@ -15,15 +15,15 @@ This repository contains Python code for reproducing the results in our work *[I
 
 - `KS Example`
 
-     - `KS_simulate.py`^(*): Generate simulations of the Kuramoto--Sivashinsky equation over a range of parameters and saves the data.
+     - `KS_simulate.py`*: Generate simulations of the Kuramoto--Sivashinsky equation over a range of parameters and saves the data.
      - `KS_evaluate_landscape.py`: Uses the simulations to generate optimization landscapes for inferring the true parameter from partial data using both pointwise and delay measure objectives.
-     - `KS_optimization.py`^(*): Uses the Nelder--Mead algorithm to perform optimization using the two objectives from a fixed initial condition.
-     - `KS_optimization_rands.py`^(*): Repeats the optimization over 10 randomly chosen initial parameter guesses and computes the estimation errors.
+     - `KS_optimization.py`*: Uses the Nelder--Mead algorithm to perform optimization using the two objectives from a fixed initial condition.
+     - `KS_optimization_rands.py`*: Repeats the optimization over 10 randomly chosen initial parameter guesses and computes the estimation errors.
      - `KS_plot.py`: Plots the full unobserved dynamics, observed data, optimization landscapes, and Nelder--Mead iterations.
 
 - `Cylinder Flow Example`
 
-     - `simulate_flow.py`^*^: Simulates the flow past cylinder at Reynold's number Re = 70 using the DQ29 LBM.*
+     - `simulate_flow.py`*: Simulates the flow past cylinder at Reynold's number Re = 70 using the DQ29 LBM.*
      - `flow_data_prep.py`: Converts lattice units to physical units and collects partially observed noisy data from velocity probes in fluid wake.
      - `learn_flow_push.py`: Learns the dynamics of the observables using a neural network parameterization and delay-coordinate invariant measure objective function.
      - `learn_flow_push.py`: Repeats the learning procedure for 10 different random network initializations and saves the results for error computations.
@@ -31,4 +31,4 @@ This repository contains Python code for reproducing the results in our work *[I
      - `plot_flow_sensors.py`: Visualizes the sensor locations in the fluid flow and plots the predicted trajectories. 
 
      
-^(*) Indicates that these files contain sections of code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by Felix Köhler; see `Credits.md`.
+* Indicates that these files contain sections of code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by Felix Köhler; see `Credits.md`.
