@@ -31,4 +31,4 @@ This repository contains Python code for reproducing the results in our work *[I
      - `plot_flow_sensors.py`: Visualizes the sensor locations in the fluid flow and plots the predicted trajectories. 
 
      
-* Indicates that these files contain sections of code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by Felix Köhler; see `Credits.md`.
+*Indicates that these files contain sections of code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by Felix Köhler; see `Credits.md`.
