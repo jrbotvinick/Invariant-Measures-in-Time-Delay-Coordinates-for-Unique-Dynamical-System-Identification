@@ -13,3 +13,14 @@ This repository contains Python code for reproducing the results in our work *[I
      - `compute_errors.py`: Computes the sliced Wasserstein distance between the neural network simulated trajectories and the ground truth attractor.
      - `plot_lorenz.py`: Plot the simulate trajectory for a single neural network training and visualzie both the state-coordinate and delay-coordinate pushforward measures. 
 
+- `KS Example`
+
+     - `KS_simulate.py`: Generate simulations of the Kuramoto--Sivashinsky equation over a range of parameters and saves the data.
+     - `KS_evaluate_landscape.py`: Uses the simulations to generate optimization landscapes for inferring the true parameter from partial data using both pointwise and delay measure objectives.
+     - `KS_optimization.py`: Uses the Nelder--Mead algorithm to perform optimization using the two objectives from a fixed initial condition.
+     - `KS_optimization_rands.py`: Repeats the optimization over 10 randomly chosen initial parameter guesses and computes the estimation errors.
+     - `KS_plot.py`: Plots the full unobserved dynamics, observed data, optimization landscapes, and Nelder--Mead iterations.
+
+- `Cylinder Flow Example`
+
+     
