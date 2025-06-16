@@ -8,14 +8,16 @@ from sklearn.preprocessing import MaxAbsScaler
 import pickle
 
 ############################# lorenz system; see https://en.wikipedia.org/wiki/Lorenz_system
-def lorenz(xyz, *, s=10, r=28, b=2.667):
+def lorenz(xyz):
+    s, r, b = 10, 28, 2.667
     x, y, z = xyz
     x_dot = s*(y - x)
     y_dot = r*x - y - x*z
     z_dot = x*y - b*z
     return np.array([x_dot, y_dot, z_dot])
 
-def lorenz_vec(xyz, *, s=10, r=28, b=2.667):
+def lorenz_vec(xyz):
+    s, r, b = 10, 28, 2.667
     x, y, z = xyz[:,0], xyz[:,1], xyz[:,2]
     x_dot = s*(y - x)
     y_dot = r*x - y - x*z
