@@ -15,7 +15,7 @@ This repository contains Python code for reproducing the results in our work *[I
 
 - `KS Example`
 
-     - `KS_simulate.py`*: Generate simulations of the Kuramoto--Sivashinsky equation over a range of parameters and saves the data.
+     - `KS_simulate.py`^*: Generate simulations of the Kuramoto--Sivashinsky equation over a range of parameters and saves the data.
      - `KS_evaluate_landscape.py`: Uses the simulations to generate optimization landscapes for inferring the true parameter from partial data using both pointwise and delay measure objectives.
      - `KS_optimization.py`: Uses the Nelder--Mead algorithm to perform optimization using the two objectives from a fixed initial condition.
      - `KS_optimization_rands.py`: Repeats the optimization over 10 randomly chosen initial parameter guesses and computes the estimation errors.
