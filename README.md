@@ -4,7 +4,7 @@ This repository contains Python code based on our work *[Invariant Measures in T
 
 
 - `Tutorials`:
-     - `tutorial1.ipynb`: This notebook walks through an example implementation of Algorithm 1 (Trajectory based delay measure opt.) for performing data-driven system identification using delay-coordinate invariant measures.
+     - `tutorial1.ipynb`*: This notebook walks through an example implementation of Algorithm 1 (Trajectory based delay measure opt.) for performing data-driven system identification using delay-coordinate invariant measures.
      - `tutorial2.ipynb`: This notebook walks through an example implementation of Algorithm 2 (Pushforward based delay measure opt.), which is useful in situations when the parameter space is large and gradient based optimization is necessary. 
 
 <img width="600" alt="Screenshot 2025-06-17 at 12 27 43 PM" src="https://github.com/user-attachments/assets/e6006d1d-b4da-445b-b54d-a30f37fcbe49" />
