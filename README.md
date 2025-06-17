@@ -2,15 +2,6 @@
 
 This repository contains Python code based on our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* 
 
-```
-@article{botvinick2024invariant,
-  title={Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification},
-  author={Botvinick-Greenhouse, Jonah and Martin, Robert and Yang, Yunan},
-  journal={arXiv preprint arXiv:2412.00589},
-  year={2024}
-}
-```
-
 In our paper, we present several theoretical results which justify the use of delay-coordinate invariant measures for performing data-driven system identification. We also present two computational algorithms for using delay-coordinate invariant measures to perform system identification in practice, shown below. In this repository, we present several numerical examples and tutorials which deploy these approaches across physical systems, including the Lorenz-63 equations, the Kuramoto--Sivashinsky equation, and partial observations of vortex shedding past a cylinder.
 
 
@@ -61,5 +52,16 @@ In our paper, we present several theoretical results which justify the use of de
 <div align="center">
 <img width="600" alt="Screenshot 2025-06-17 at 12 30 37 PM" src="https://github.com/user-attachments/assets/c4c031aa-48c1-4d60-adc9-9236e8c6840f" />
 </div>
+
+If you find our code helpful, please cite:
+
+```
+@article{botvinick2024invariant,
+  title={Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification},
+  author={Botvinick-Greenhouse, Jonah and Martin, Robert and Yang, Yunan},
+  journal={arXiv preprint arXiv:2412.00589},
+  year={2024}
+}
+```
 
 *Indicates that these files contain sections of code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by Felix Köhler; see `Credits.md`.
