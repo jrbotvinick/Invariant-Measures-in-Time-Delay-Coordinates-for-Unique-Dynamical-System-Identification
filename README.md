@@ -19,7 +19,7 @@ This repository contains Python code for reproducing the results in our work *[I
      - `KS_plot.py`: Plots the full unobserved dynamics, observed data, optimization landscapes, and Nelder--Mead iterations.
 
 - `Cylinder Flow Example`
-     - `simulate_flow.py`*: Simulates the flow past cylinder at Reynold's number Re = 70 using the DQ29 LBM.*
+     - `simulate_flow.py`*: Simulates the flow past cylinder at Reynold's number Re = 70 using the DQ29 LBM.
      - `flow_data_prep.py`: Converts lattice units to physical units and collects partially observed noisy data from velocity probes in fluid wake.
      - `learn_flow_push.py`: Learns the dynamics of the observables using a neural network parameterization and delay-coordinate invariant measure objective function.
      - `learn_flow_push.py`: Repeats the learning procedure for 10 different random network initializations and saves the results for error computations.
