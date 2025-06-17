@@ -2,14 +2,18 @@
 
 This repository contains Python code based on our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* In our paper, we present several theoretical results which justify the use of delay-coordinate invariant measures for performing data-driven system identification. We also present two computational algorithms for using delay-coordinate invariant measures to perform system identification in practice, shown below. In this repository, we present several numerical examples and tutorials which deploy these approaches across physical systems, including the Lorenz-63 equations, the Kuramoto--Sivashinsky equation, and partial observations of vortex shedding past a cylinder.
 
-<img width="800" alt="Screenshot 2025-06-17 at 12 27 05 PM" src="https://github.com/user-attachments/assets/94fdfa3c-fc89-44bb-80dc-48fc338a8c9e" />
+<img width="800" alt="Screenshot 2025-06-17 at 12 27 43 PM" src="https://github.com/user-attachments/assets/e6006d1d-b4da-445b-b54d-a30f37fcbe49" />
 
 - `Tutorials`:
      - `tutorial1.ipynb`: This notebook walks through an example implementation of Algorithm 1 (Trajectory based delay measure opt.) for performing data-driven system identification using delay-coordinate invariant measures.
      - `tutorial2.ipynb`: This notebook walks through an example implementation of Algorithm 2 (Pushforward based delay measure opt.), which is useful in situations when the parameter space is large and gradient based optimization is necessary. 
 
+<img width="800" alt="Screenshot 2025-06-17 at 12 28 36 PM" src="https://github.com/user-attachments/assets/373cb55c-deba-40ee-a0eb-22d5671e4cd2" />
+
 - `Torus Rotation`
      - `torus_rotation.py`: Simulates long trajectories of the torus rotation for four different rotation numbers and plots the trajectory samples in both the 3D projected state-coordinates and a 3D delay coordinate syste.
+     - 
+<img width="800" alt="Screenshot 2025-06-17 at 12 29 09 PM" src="https://github.com/user-attachments/assets/30ea717b-9455-4b58-a4be-7b8597d55590" />
 
  - `Lorenz Example`
      - `NN_measure_loss.py`: Learns dynamics from Lorenz-63 data using a neural network parameterization with delay-coordinate invariant measure and state-coordinate invariant measure loss functions.
@@ -17,12 +21,17 @@ This repository contains Python code based on our work *[Invariant Measures in T
      - `compute_errors.py`: Computes the sliced Wasserstein distance between the neural network simulated trajectories and the ground truth attractor.
      - `plot_lorenz.py`: Plot the simulate trajectory for a single neural network training and visualzie both the state-coordinate and delay-coordinate pushforward measures. 
 
+<img width="800" alt="Screenshot 2025-06-17 at 12 30 18 PM" src="https://github.com/user-attachments/assets/77560b93-e4db-425a-8c59-57bef1cf1649" />
+
+
 - `KS Example`
      - `KS_simulate.py`*: Generate simulations of the Kuramoto--Sivashinsky equation over a range of parameters and saves the data.
      - `KS_evaluate_landscape.py`: Uses the simulations to generate optimization landscapes for inferring the true parameter from partial data using both pointwise and delay measure objectives.
      - `KS_optimization.py`*: Uses the Nelder--Mead algorithm to perform optimization using the two objectives from a fixed initial condition.
      - `KS_optimization_rands.py`*: Repeats the optimization over 10 randomly chosen initial parameter guesses and computes the estimation errors.
      - `KS_plot.py`: Plots the full unobserved dynamics, observed data, optimization landscapes, and Nelder--Mead iterations.
+     - 
+<img width="800" alt="Screenshot 2025-06-17 at 12 30 37 PM" src="https://github.com/user-attachments/assets/c4c031aa-48c1-4d60-adc9-9236e8c6840f" />
 
 - `Cylinder Flow Example`
      - `simulate_flow.py`*: Simulates the flow past cylinder at Reynold's number Re = 70 using the DQ29 LBM.
