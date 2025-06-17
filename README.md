@@ -12,7 +12,7 @@ This repository contains Python code based on our work *[Invariant Measures in T
 
 - `Torus Rotation`
      - `torus_rotation.py`: Simulates long trajectories of the torus rotation for four different rotation numbers and plots the trajectory samples in both the 3D projected state-coordinates and a 3D delay coordinate syste.
-     - 
+  
 <img width="800" alt="Screenshot 2025-06-17 at 12 29 09 PM" src="https://github.com/user-attachments/assets/30ea717b-9455-4b58-a4be-7b8597d55590" />
 
  - `Lorenz Example`
@@ -23,14 +23,13 @@ This repository contains Python code based on our work *[Invariant Measures in T
 
 <img width="800" alt="Screenshot 2025-06-17 at 12 30 18 PM" src="https://github.com/user-attachments/assets/77560b93-e4db-425a-8c59-57bef1cf1649" />
 
-
 - `KS Example`
      - `KS_simulate.py`*: Generate simulations of the Kuramoto--Sivashinsky equation over a range of parameters and saves the data.
      - `KS_evaluate_landscape.py`: Uses the simulations to generate optimization landscapes for inferring the true parameter from partial data using both pointwise and delay measure objectives.
      - `KS_optimization.py`*: Uses the Nelder--Mead algorithm to perform optimization using the two objectives from a fixed initial condition.
      - `KS_optimization_rands.py`*: Repeats the optimization over 10 randomly chosen initial parameter guesses and computes the estimation errors.
      - `KS_plot.py`: Plots the full unobserved dynamics, observed data, optimization landscapes, and Nelder--Mead iterations.
-     - 
+
 <img width="800" alt="Screenshot 2025-06-17 at 12 30 37 PM" src="https://github.com/user-attachments/assets/c4c031aa-48c1-4d60-adc9-9236e8c6840f" />
 
 - `Cylinder Flow Example`
@@ -39,7 +38,6 @@ This repository contains Python code based on our work *[Invariant Measures in T
      - `learn_flow_push.py`: Learns the dynamics of the observables using a neural network parameterization and delay-coordinate invariant measure objective function.
      - `learn_flow_push.py`: Repeats the learning procedure for 10 different random network initializations and saves the results for error computations.
      - `compute_errors.py`: Computes the forecast errors for the neural network predicted trajectories on unseen testing data.
-     - `plot_flow_sensors.py`: Visualizes the sensor locations in the fluid flow and plots the predicted trajectories. 
-
-     
+     - `plot_flow_sensors.py`: Visualizes the sensor locations in the fluid flow and plots the predicted trajectories.
+       
 *Indicates that these files contain sections of code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by Felix Köhler; see `Credits.md`.
