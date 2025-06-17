@@ -7,14 +7,16 @@ This repository contains Python code based on our work *[Invariant Measures in T
      - `tutorial1.ipynb`*: This notebook walks through an example implementation of Algorithm 1 (Trajectory based delay measure opt.) for performing data-driven system identification using delay-coordinate invariant measures.
      - `tutorial2.ipynb`: This notebook walks through an example implementation of Algorithm 2 (Pushforward based delay measure opt.), which is useful in situations when the parameter space is large and gradient based optimization is necessary. 
 
+<div align="center">
 <img width="600" alt="Screenshot 2025-06-17 at 12 27 43 PM" src="https://github.com/user-attachments/assets/e6006d1d-b4da-445b-b54d-a30f37fcbe49" />
-
+</div>
 
 - `Torus Rotation`
      - `torus_rotation.py`: Simulates long trajectories of the torus rotation for four different rotation numbers and plots the trajectory samples in both the 3D projected state-coordinates and a 3D delay coordinate syste.
 
-  <img width="600" alt="Screenshot 2025-06-17 at 12 28 36 PM" src="https://github.com/user-attachments/assets/373cb55c-deba-40ee-a0eb-22d5671e4cd2" />
-
+<div align="center">
+<img width="600" alt="Screenshot 2025-06-17 at 12 28 36 PM" src="https://github.com/user-attachments/assets/373cb55c-deba-40ee-a0eb-22d5671e4cd2" />
+</div>
 
  - `Lorenz Example`
      - `NN_measure_loss.py`: Learns dynamics from Lorenz-63 data using a neural network parameterization with delay-coordinate invariant measure and state-coordinate invariant measure loss functions.
@@ -22,7 +24,9 @@ This repository contains Python code based on our work *[Invariant Measures in T
      - `compute_errors.py`: Computes the sliced Wasserstein distance between the neural network simulated trajectories and the ground truth attractor.
      - `plot_lorenz.py`: Plot the simulate trajectory for a single neural network training and visualzie both the state-coordinate and delay-coordinate pushforward measures. 
 
+<div align="center">
 <img width="600" alt="Screenshot 2025-06-17 at 12 29 09 PM" src="https://github.com/user-attachments/assets/30ea717b-9455-4b58-a4be-7b8597d55590" />
+</div>
 
 - `KS Example`
      - `KS_simulate.py`*: Generate simulations of the Kuramoto--Sivashinsky equation over a range of parameters and saves the data.
@@ -31,7 +35,9 @@ This repository contains Python code based on our work *[Invariant Measures in T
      - `KS_optimization_rands.py`*: Repeats the optimization over 10 randomly chosen initial parameter guesses and computes the estimation errors.
      - `KS_plot.py`: Plots the full unobserved dynamics, observed data, optimization landscapes, and Nelder--Mead iterations.
 
+<div align="center">
 <img width="600" alt="Screenshot 2025-06-17 at 12 30 18 PM" src="https://github.com/user-attachments/assets/77560b93-e4db-425a-8c59-57bef1cf1649" />
+</div>
 
 - `Cylinder Flow Example`
      - `simulate_flow.py`*: Simulates the flow past cylinder at Reynold's number Re = 70 using the DQ29 LBM.
@@ -41,6 +47,8 @@ This repository contains Python code based on our work *[Invariant Measures in T
      - `compute_errors.py`: Computes the forecast errors for the neural network predicted trajectories on unseen testing data.
      - `plot_flow_sensors.py`: Visualizes the sensor locations in the fluid flow and plots the predicted trajectories.
 
+<div align="center">
 <img width="600" alt="Screenshot 2025-06-17 at 12 30 37 PM" src="https://github.com/user-attachments/assets/c4c031aa-48c1-4d60-adc9-9236e8c6840f" />
+</div>
 
 *Indicates that these files contain sections of code from [machine-learning-and-simulation](https://github.com/Ceyron/machine-learning-and-simulation?tab=MIT-1-ov-file) by Felix Köhler; see `Credits.md`.
