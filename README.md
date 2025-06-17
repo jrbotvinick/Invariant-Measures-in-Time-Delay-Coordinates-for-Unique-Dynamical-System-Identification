@@ -1,12 +1,10 @@
 # Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification
 
-This repository contains Python code based on our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* 
+This repository contains Python code based on our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* In our paper, we present several theoretical results which justify the use of delay-coordinate invariant measures for performing data-driven system identification. We also present two computational algorithms for using delay-coordinate invariant measures to perform system identification in practice, shown below. In this repository, we present several numerical examples and tutorials which deploy these approaches across physical systems, including the Lorenz-63 equations, the Kuramoto--Sivashinsky equation, and partial observations of vortex shedding past a cylinder.
+
 
 - `Tutorials`:
      - `tutorial1.ipynb`: This notebook walks through an example implementation of Algorithm 1 (Trajectory based delay measure opt.) for performing data-driven system identification using delay-coordinate invariant measures.
-     
-     <img width="881" alt="Screenshot 2025-06-17 at 12 11 33 PM" src="https://github.com/user-attachments/assets/291b3c8c-6049-41d7-b8ed-bec990bf07b1" />
-
      - `tutorial2.ipynb`: This notebook walks through an example implementation of Algorithm 2 (Pushforward based delay measure opt.), which is useful in situations when the parameter space is large and gradient based optimization is necessary. 
 
 - `Torus Rotation`
