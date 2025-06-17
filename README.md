@@ -1,6 +1,13 @@
 # Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification
 
-This repository contains Python code for reproducing the results in our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* 
+This repository contains Python code based on our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* 
+
+- `Tutorials`:
+     - `tutorial1.ipynb`: This notebook walks through an example implementation of Algorithm 1 (Trajectory based delay measure opt.) for performing data-driven system identification using delay-coordinate invariant measures.
+     
+     <img width="881" alt="Screenshot 2025-06-17 at 12 11 33 PM" src="https://github.com/user-attachments/assets/291b3c8c-6049-41d7-b8ed-bec990bf07b1" />
+
+     - `tutorial2.ipynb`: This notebook walks through an example implementation of Algorithm 2 (Pushforward based delay measure opt.), which is useful in situations when the parameter space is large and gradient based optimization is necessary. 
 
 - `Torus Rotation`
      - `torus_rotation.py`: Simulates long trajectories of the torus rotation for four different rotation numbers and plots the trajectory samples in both the 3D projected state-coordinates and a 3D delay coordinate syste.
