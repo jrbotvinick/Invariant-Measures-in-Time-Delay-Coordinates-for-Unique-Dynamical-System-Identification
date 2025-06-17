@@ -14,7 +14,7 @@ In our paper, we present several theoretical results which justify the use of de
 </div>
 
 - `Torus Rotation`
-     - `torus_rotation.py`: Simulates long trajectories of the torus rotation for four different rotation numbers and plots the trajectory samples in both the 3D projected state-coordinates and a 3D delay coordinate syste.
+     - `torus_rotation.py`: Simulates long trajectories of the torus rotation for four different rotation numbers and plots the trajectory samples in both the 3D projected state-coordinates and a 3D delay coordinate system.
 
 <div align="center">
 <img width="600" alt="Screenshot 2025-06-17 at 12 28 36 PM" src="https://github.com/user-attachments/assets/373cb55c-deba-40ee-a0eb-22d5671e4cd2" />
