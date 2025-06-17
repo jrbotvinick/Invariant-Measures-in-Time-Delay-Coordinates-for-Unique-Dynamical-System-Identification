@@ -1,6 +1,17 @@
 # Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification
 
-This repository contains Python code based on our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* In our paper, we present several theoretical results which justify the use of delay-coordinate invariant measures for performing data-driven system identification. We also present two computational algorithms for using delay-coordinate invariant measures to perform system identification in practice, shown below. In this repository, we present several numerical examples and tutorials which deploy these approaches across physical systems, including the Lorenz-63 equations, the Kuramoto--Sivashinsky equation, and partial observations of vortex shedding past a cylinder.
+This repository contains Python code based on our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* 
+
+```
+@article{botvinick2024invariant,
+  title={Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Identification},
+  author={Botvinick-Greenhouse, Jonah and Martin, Robert and Yang, Yunan},
+  journal={arXiv preprint arXiv:2412.00589},
+  year={2024}
+}
+```
+
+In our paper, we present several theoretical results which justify the use of delay-coordinate invariant measures for performing data-driven system identification. We also present two computational algorithms for using delay-coordinate invariant measures to perform system identification in practice, shown below. In this repository, we present several numerical examples and tutorials which deploy these approaches across physical systems, including the Lorenz-63 equations, the Kuramoto--Sivashinsky equation, and partial observations of vortex shedding past a cylinder.
 
 
 - `Tutorials`:
