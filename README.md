@@ -1,6 +1,6 @@
 # Invariant-Measures-in-Time-Delay-Coordinates-for-Unique-Dynamical-System-Identification
 
-This repository contains Python code based on our work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1).* 
+This repository contains Python code based on the work *[Invariant Measures in Time-Delay Coordinates for Unique Dynamical System Idenfitification](https://arxiv.org/abs/2412.00589v1)* by J. Botvinick-Greenhouse, R. Martin, and Y. Yang (2025). 
 
 In our paper, we present several theoretical results which justify the use of delay-coordinate invariant measures for performing data-driven system identification. We also present two computational algorithms for using delay-coordinate invariant measures to perform system identification in practice, shown below. In this repository, we present several numerical examples and tutorials which deploy these approaches across physical systems, including the Lorenz-63 equations, the Kuramoto--Sivashinsky equation, and partial observations of vortex shedding past a cylinder.
 
